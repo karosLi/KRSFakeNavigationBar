@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687EEB901CE7012400A277DC /* KRSFakeNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEB8F1CE7012400A277DC /* KRSFakeNavigationBarTests.m */; };
+		687EEB9B1CE7012400A277DC /* KRSFakeNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEB9A1CE7012400A277DC /* KRSFakeNavigationBarUITests.m */; };
+		687EEBB41CE701DA00A277DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBAA1CE701DA00A277DC /* AppDelegate.m */; };
+		687EEBBA1CE701DA00A277DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBB31CE701DA00A277DC /* FirstViewController.m */; };
+		687EEBBF1CE701EC00A277DC /* KRSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBBC1CE701EC00A277DC /* KRSSwizzle.m */; };
+		687EEBC01CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBBE1CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.m */; };
+		687EEBC71CE706D000A277DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBC11CE706D000A277DC /* Assets.xcassets */; };
+		687EEBC81CE706D000A277DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBC31CE706D000A277DC /* LaunchScreen.storyboard */; };
+		687EEBC91CE706D000A277DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBC51CE706D000A277DC /* Info.plist */; };
+		687EEBCA1CE706D000A277DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBC61CE706D000A277DC /* main.m */; };
+		687EEBCD1CE7077900A277DC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBCC1CE7077900A277DC /* BaseViewController.m */; };
+		687EEBD01CE707AC00A277DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBCF1CE707AC00A277DC /* SecondViewController.m */; };
+		687EEBD31CE707C200A277DC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEBD21CE707C200A277DC /* ThirdViewController.m */; };
+		687EEBD51CE707FD00A277DC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBD41CE707FD00A277DC /* FirstViewController.xib */; };
+		687EEBD81CE7082900A277DC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBD61CE7082900A277DC /* SecondViewController.xib */; };
+		687EEBD91CE7082900A277DC /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687EEBD71CE7082900A277DC /* ThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687EEB8C1CE7012400A277DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687EEB6A1CE7012300A277DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687EEB711CE7012300A277DC;
+			remoteInfo = KRSFakeNavigationBar;
+		};
+		687EEB971CE7012400A277DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687EEB6A1CE7012300A277DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687EEB711CE7012300A277DC;
+			remoteInfo = KRSFakeNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687EEB721CE7012300A277DC /* KRSFakeNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRSFakeNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687EEB8B1CE7012400A277DC /* KRSFakeNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRSFakeNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687EEB8F1CE7012400A277DC /* KRSFakeNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSFakeNavigationBarTests.m; sourceTree = "<group>"; };
+		687EEB911CE7012400A277DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687EEB961CE7012400A277DC /* KRSFakeNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRSFakeNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687EEB9A1CE7012400A277DC /* KRSFakeNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSFakeNavigationBarUITests.m; sourceTree = "<group>"; };
+		687EEB9C1CE7012400A277DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687EEBA91CE701DA00A277DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		687EEBAA1CE701DA00A277DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		687EEBB21CE701DA00A277DC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		687EEBB31CE701DA00A277DC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		687EEBBB1CE701EC00A277DC /* KRSSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRSSwizzle.h; sourceTree = "<group>"; };
+		687EEBBC1CE701EC00A277DC /* KRSSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRSSwizzle.m; sourceTree = "<group>"; };
+		687EEBBD1CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KRSFakeNavigationBar.h"; sourceTree = "<group>"; };
+		687EEBBE1CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KRSFakeNavigationBar.m"; sourceTree = "<group>"; };
+		687EEBC11CE706D000A277DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687EEBC41CE706D000A277DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687EEBC51CE706D000A277DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687EEBC61CE706D000A277DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		687EEBCB1CE7077900A277DC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		687EEBCC1CE7077900A277DC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		687EEBCE1CE707AC00A277DC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		687EEBCF1CE707AC00A277DC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		687EEBD11CE707C200A277DC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		687EEBD21CE707C200A277DC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		687EEBD41CE707FD00A277DC /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		687EEBD61CE7082900A277DC /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		687EEBD71CE7082900A277DC /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687EEB6F1CE7012300A277DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB881CE7012400A277DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB931CE7012400A277DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687EEB691CE7012300A277DC = {
+			isa = PBXGroup;
+			children = (
+				687EEB741CE7012300A277DC /* KRSFakeNavigationBar */,
+				687EEBA81CE701DA00A277DC /* Example */,
+				687EEBC11CE706D000A277DC /* Assets.xcassets */,
+				687EEBC21CE706D000A277DC /* Base.lproj */,
+				687EEBC51CE706D000A277DC /* Info.plist */,
+				687EEBC61CE706D000A277DC /* main.m */,
+				687EEB8E1CE7012400A277DC /* KRSFakeNavigationBarTests */,
+				687EEB991CE7012400A277DC /* KRSFakeNavigationBarUITests */,
+				687EEB731CE7012300A277DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687EEB731CE7012300A277DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687EEB721CE7012300A277DC /* KRSFakeNavigationBar.app */,
+				687EEB8B1CE7012400A277DC /* KRSFakeNavigationBarTests.xctest */,
+				687EEB961CE7012400A277DC /* KRSFakeNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687EEB741CE7012300A277DC /* KRSFakeNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				687EEBBB1CE701EC00A277DC /* KRSSwizzle.h */,
+				687EEBBC1CE701EC00A277DC /* KRSSwizzle.m */,
+				687EEBBD1CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.h */,
+				687EEBBE1CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.m */,
+			);
+			path = KRSFakeNavigationBar;
+			sourceTree = "<group>";
+		};
+		687EEB8E1CE7012400A277DC /* KRSFakeNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				687EEB8F1CE7012400A277DC /* KRSFakeNavigationBarTests.m */,
+				687EEB911CE7012400A277DC /* Info.plist */,
+			);
+			path = KRSFakeNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		687EEB991CE7012400A277DC /* KRSFakeNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687EEB9A1CE7012400A277DC /* KRSFakeNavigationBarUITests.m */,
+				687EEB9C1CE7012400A277DC /* Info.plist */,
+			);
+			path = KRSFakeNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		687EEBA81CE701DA00A277DC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				687EEBA91CE701DA00A277DC /* AppDelegate.h */,
+				687EEBAA1CE701DA00A277DC /* AppDelegate.m */,
+				687EEBCB1CE7077900A277DC /* BaseViewController.h */,
+				687EEBCC1CE7077900A277DC /* BaseViewController.m */,
+				687EEBB21CE701DA00A277DC /* FirstViewController.h */,
+				687EEBB31CE701DA00A277DC /* FirstViewController.m */,
+				687EEBD41CE707FD00A277DC /* FirstViewController.xib */,
+				687EEBCE1CE707AC00A277DC /* SecondViewController.h */,
+				687EEBCF1CE707AC00A277DC /* SecondViewController.m */,
+				687EEBD61CE7082900A277DC /* SecondViewController.xib */,
+				687EEBD11CE707C200A277DC /* ThirdViewController.h */,
+				687EEBD21CE707C200A277DC /* ThirdViewController.m */,
+				687EEBD71CE7082900A277DC /* ThirdViewController.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		687EEBC21CE706D000A277DC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				687EEBC31CE706D000A277DC /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687EEB711CE7012300A277DC /* KRSFakeNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687EEB9F1CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBar" */;
+			buildPhases = (
+				687EEB6E1CE7012300A277DC /* Sources */,
+				687EEB6F1CE7012300A277DC /* Frameworks */,
+				687EEB701CE7012300A277DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRSFakeNavigationBar;
+			productName = KRSFakeNavigationBar;
+			productReference = 687EEB721CE7012300A277DC /* KRSFakeNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687EEB8A1CE7012400A277DC /* KRSFakeNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687EEBA21CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBarTests" */;
+			buildPhases = (
+				687EEB871CE7012400A277DC /* Sources */,
+				687EEB881CE7012400A277DC /* Frameworks */,
+				687EEB891CE7012400A277DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687EEB8D1CE7012400A277DC /* PBXTargetDependency */,
+			);
+			name = KRSFakeNavigationBarTests;
+			productName = KRSFakeNavigationBarTests;
+			productReference = 687EEB8B1CE7012400A277DC /* KRSFakeNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687EEB951CE7012400A277DC /* KRSFakeNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687EEBA51CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBarUITests" */;
+			buildPhases = (
+				687EEB921CE7012400A277DC /* Sources */,
+				687EEB931CE7012400A277DC /* Frameworks */,
+				687EEB941CE7012400A277DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687EEB981CE7012400A277DC /* PBXTargetDependency */,
+			);
+			name = KRSFakeNavigationBarUITests;
+			productName = KRSFakeNavigationBarUITests;
+			productReference = 687EEB961CE7012400A277DC /* KRSFakeNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687EEB6A1CE7012300A277DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = karosli;
+				TargetAttributes = {
+					687EEB711CE7012300A277DC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					687EEB8A1CE7012400A277DC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 687EEB711CE7012300A277DC;
+					};
+					687EEB951CE7012400A277DC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 687EEB711CE7012300A277DC;
+					};
+				};
+			};
+			buildConfigurationList = 687EEB6D1CE7012300A277DC /* Build configuration list for PBXProject "KRSFakeNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687EEB691CE7012300A277DC;
+			productRefGroup = 687EEB731CE7012300A277DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687EEB711CE7012300A277DC /* KRSFakeNavigationBar */,
+				687EEB8A1CE7012400A277DC /* KRSFakeNavigationBarTests */,
+				687EEB951CE7012400A277DC /* KRSFakeNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687EEB701CE7012300A277DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687EEBC71CE706D000A277DC /* Assets.xcassets in Resources */,
+				687EEBC81CE706D000A277DC /* LaunchScreen.storyboard in Resources */,
+				687EEBD91CE7082900A277DC /* ThirdViewController.xib in Resources */,
+				687EEBC91CE706D000A277DC /* Info.plist in Resources */,
+				687EEBD51CE707FD00A277DC /* FirstViewController.xib in Resources */,
+				687EEBD81CE7082900A277DC /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB891CE7012400A277DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB941CE7012400A277DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687EEB6E1CE7012300A277DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687EEBCA1CE706D000A277DC /* main.m in Sources */,
+				687EEBCD1CE7077900A277DC /* BaseViewController.m in Sources */,
+				687EEBD31CE707C200A277DC /* ThirdViewController.m in Sources */,
+				687EEBBF1CE701EC00A277DC /* KRSSwizzle.m in Sources */,
+				687EEBD01CE707AC00A277DC /* SecondViewController.m in Sources */,
+				687EEBB41CE701DA00A277DC /* AppDelegate.m in Sources */,
+				687EEBC01CE701EC00A277DC /* UIViewController+KRSFakeNavigationBar.m in Sources */,
+				687EEBBA1CE701DA00A277DC /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB871CE7012400A277DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687EEB901CE7012400A277DC /* KRSFakeNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687EEB921CE7012400A277DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687EEB9B1CE7012400A277DC /* KRSFakeNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687EEB8D1CE7012400A277DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687EEB711CE7012300A277DC /* KRSFakeNavigationBar */;
+			targetProxy = 687EEB8C1CE7012400A277DC /* PBXContainerItemProxy */;
+		};
+		687EEB981CE7012400A277DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687EEB711CE7012300A277DC /* KRSFakeNavigationBar */;
+			targetProxy = 687EEB971CE7012400A277DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687EEBC31CE706D000A277DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687EEBC41CE706D000A277DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687EEB9D1CE7012400A277DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687EEB9E1CE7012400A277DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687EEBA01CE7012400A277DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		687EEBA11CE7012400A277DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		687EEBA31CE7012400A277DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KRSFakeNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRSFakeNavigationBar.app/KRSFakeNavigationBar";
+			};
+			name = Debug;
+		};
+		687EEBA41CE7012400A277DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KRSFakeNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRSFakeNavigationBar.app/KRSFakeNavigationBar";
+			};
+			name = Release;
+		};
+		687EEBA61CE7012400A277DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KRSFakeNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRSFakeNavigationBar;
+			};
+			name = Debug;
+		};
+		687EEBA71CE7012400A277DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KRSFakeNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karosli.KRSFakeNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRSFakeNavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687EEB6D1CE7012300A277DC /* Build configuration list for PBXProject "KRSFakeNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687EEB9D1CE7012400A277DC /* Debug */,
+				687EEB9E1CE7012400A277DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687EEB9F1CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687EEBA01CE7012400A277DC /* Debug */,
+				687EEBA11CE7012400A277DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		687EEBA21CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687EEBA31CE7012400A277DC /* Debug */,
+				687EEBA41CE7012400A277DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		687EEBA51CE7012400A277DC /* Build configuration list for PBXNativeTarget "KRSFakeNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687EEBA61CE7012400A277DC /* Debug */,
+				687EEBA71CE7012400A277DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687EEB6A1CE7012300A277DC /* Project object */;
+}
