@@ -4,7 +4,7 @@ A fake navigation bar for each view controller, so that you can customlize nav b
 ![demo](https://github.com/karosLi/KRSFakeNavigationBar/blob/master/demo.gif)  
 
 ## How To Use?
-### 1. Here is the switch which can turn on/off the fake navigation bar function.
+1. Here is the switch which can turn on/off the fake navigation bar function.
 ```Object-c
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -12,7 +12,7 @@ A fake navigation bar for each view controller, so that you can customlize nav b
 }
 ```
 
-### 2. You just use origin way to set navigation bar style, no complex grammer, so easy.
+2. You just use origin way to set navigation bar style, no complex grammer, so easy.
 ```
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,5 +25,5 @@ A fake navigation bar for each view controller, so that you can customlize nav b
 ```
 
 ## Note
-### 1. You should put all navigation bar style settings into method viewDidLoad.
+1. You should put all navigation bar style settings into method viewDidLoad.
 
