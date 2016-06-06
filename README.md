@@ -26,4 +26,4 @@ A fake navigation bar for each view controller, so that you can customlize nav b
 
 ## Note
 1. You should put all navigation bar style settings into method viewDidLoad.
-
+2. Any issue please free let me know.
